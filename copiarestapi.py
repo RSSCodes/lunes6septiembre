@@ -24,7 +24,10 @@ def concepToMartes():
 def conceptoPython():
     return 'es un lenguaje de programacion'
 
+@aplicacion.route('/lunes')
+def elLunes():
+    return 'es dia 1 de la semana'
 
 
 if __name__=='__main__':
-    aplicacion.run(host='0.0.0.0',port=3500)
+    aplicacion.run(host='0.0.0.0',port=4005)
